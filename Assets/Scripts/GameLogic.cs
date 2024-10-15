@@ -73,6 +73,7 @@ public class GameLogic : MonoBehaviour
 
         _maxCoins = _coins.Count;
         _numberOfCoinsCollected = 0;
+        _coinsUI.text = _numberOfCoinsCollected.ToString("0");
 
         _time = 0;
         _timeUI.text = _time.ToString("0.00");
